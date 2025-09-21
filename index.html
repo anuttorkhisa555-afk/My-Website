@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
-    <nav class="bg-slate-300 flex items-center justify-around">
-        <div>
-            <h2>A</h2>
-            <h1>Anuttor</h1>
-        </div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Servies</a></li>
-        </ul>
+    <style>
+     
+      ul li :hover {
+        color: rgb(194, 106, 216);
+        background-color: rgb(217, 216, 216);
+        /* padding: 8px 12px; */
+      }
+      ul li{
+        padding: 8px 12px;
+        border-radius: 5px;
+     }
+    </style>
+  </head>
+  <body class="bg-gray-300">
+    <nav class="bg-white flex items-center justify-around py-5 shadow-md">
+      <div class="flex gap-3 items-center">
+        <h2
+          class="text-2xl font-semibold text-white bg-purple-400 px-4 py-2 rounded-full"
+        >
+          A
+        </h2>
+        <h1 class="text-3xl font-semibold">Anuttor</h1>
+      </div>
+      <ul class="flex gap-12 font-medium">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Servies</a></li>
+      </ul>
     </nav>
-</body>
+  </body>
 </html>
